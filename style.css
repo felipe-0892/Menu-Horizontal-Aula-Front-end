@@ -1,0 +1,50 @@
+/*-----------------Root--------------------*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+/*-----------------Nav Bar--------------------*/
+
+#menu {
+    background-color:#03324A;
+}
+
+#menu > ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu > ul > li {
+    display: inline;
+}
+
+#menu > ul > li > a {
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .4s;
+}
+
+#menu > ul > li > a:hover {
+    background-color: #528199;
+   
+}
+
+#menu > ul > li > a:active {
+    border: 1px solid #03324A;
+    transition: .4s;
+}
+
+#menu > ul >li:last-child > a {
+    float: right;
+    background-color: #97c2d8;
+}
+
+/*-----------------Main--------------------*/
